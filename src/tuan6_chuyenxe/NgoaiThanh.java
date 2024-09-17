@@ -1,3 +1,4 @@
+
 package tuan6_chuyenxe;
 
 public class NgoaiThanh  extends ChuyenXe{

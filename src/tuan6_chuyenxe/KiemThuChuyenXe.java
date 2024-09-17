@@ -97,7 +97,7 @@ public class KiemThuChuyenXe {
 					
 					cXe = new NgoaiThanh(maChuyenXe, hoTen, soXe, doanhThu, noiDen, soNgayDiDuoc);
 					
-					// throw new Exception("Đã thêm thành công một xe ngoại thành");
+					 throw new Exception("Đã thêm thành công một xe ngoại thành");
 				} else {
 					int soTuyen;
 					double soKm;
@@ -107,7 +107,7 @@ public class KiemThuChuyenXe {
 					soKm = new Scanner(System.in).nextDouble();
 					cXe = new NoiThanh(maChuyenXe, hoTen, soXe, doanhThu, soTuyen, soKm);
 
-					// throw new Exception("Đã thêm thành công một xe nội thành");
+					 throw new Exception("Đã thêm thành công một xe nội thành");
 				}
 
 			} else { // ngược của cái if tìm mã xe 
